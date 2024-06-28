@@ -61,7 +61,7 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    font-size: ;
 }
 
 
@@ -72,6 +72,21 @@ label{
     }
     .title{
         font-size: 3.5rem;
+    }
+   
+  }
+
+  @media only screen and (max-width: 450px) {
+   
+    .count{
+        width: 100%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .me{
+        bottom: 2px;
+        font-size: 1rem;
     }
    
   }
